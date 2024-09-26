@@ -1,0 +1,44 @@
+{
+  "name": "nin-ajji",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "private":false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.3",
+    "@storybook/addon-interactions": "^8.3.3",
+    "@storybook/addon-links": "^8.3.3",
+    "@storybook/addon-onboarding": "^8.3.3",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.3.3",
+    "@storybook/react": "^8.3.3",
+    "@storybook/react-webpack5": "^8.3.3",
+    "@storybook/test": "^8.3.3",
+    "@testing-library/react": "^16.0.1",
+    "babel-loader": "^9.2.1",
+    "jest": "^29.7.0",
+    "storybook": "^8.3.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
